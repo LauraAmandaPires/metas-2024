@@ -1,31 +1,36 @@
 :root{
-    --cor-de-fundo:#1E1E1E;
-    --verde:#6FFF57;
-    --branco:#FFFFFF; 
-    --botao-ativo:#3A375E; 
-    --botao-inativo:#0a1458;
-    --texto-de-fundo:#5E6278;
+    --cor-de-fundo:#000000;
+    --verde:#0e5301;
+    --branco:#FFFFFF;
+    --botao-ativo:#1200d8;
+    --botao-inativo: #b6f705;
+    --texto-de-fundo: #8088b7;
 }
 
 
-body{background-color: rgb(55, 198, 242);
-    color: rgb(0, 90, 102);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
-    text-align: center;
-}
 
+
+
+body{
+background-color:black;
+color: green;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 35px;
+text-align: center;
+}
 .botão{
-    background-color: rgb(14, 223, 251);
-    font-size: 20px;
-    border-radius: 10px;
+    background-color: green;
     color: black;
-    margin: 10px;
-    padding: 15px;
-
+    border-color:green;
+    font-size: large;
+    border-radius: 10px;
+    margin: 50px;
 
 }
-.conteudo-principal{
+.Conteudo-principal{
     display: flex;
     justify-content: center;
+    width: 20px;
+    align-items: center;
+    margin: 0 auto;
 }
