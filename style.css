@@ -35,9 +35,11 @@ text-align: center;
     margin: 0 auto;
 }
 .imagens{
-    width: 25%;
-    height: 250px;
+    width: 210px;
+    height: 210px;
 }
 .meta{
     display: inline-flex;
+
+padding: 30px;
 }
